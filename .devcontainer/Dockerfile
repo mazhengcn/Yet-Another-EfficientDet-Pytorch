@@ -1,5 +1,5 @@
 # [Choice] CUDA and Python version: 11.4-3.9
-ARG VARIANT=3.9-11.3
+ARG VARIANT=3.10-11.5
 FROM zhengma/python-3-cuda:${VARIANT}
 
 # Set time zone
